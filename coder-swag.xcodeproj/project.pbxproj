@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C254CF822012739F00F24CEE /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254CF812012739F00F24CEE /* CategoryCell.swift */; };
 		C29C98C420125FEE00905C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C98C320125FEE00905C75 /* AppDelegate.swift */; };
-		C29C98C620125FEE00905C75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C98C520125FEE00905C75 /* ViewController.swift */; };
+		C29C98C620125FEE00905C75 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C98C520125FEE00905C75 /* CategoriesVC.swift */; };
 		C29C98C920125FEE00905C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29C98C720125FEE00905C75 /* Main.storyboard */; };
 		C29C98CB20125FEE00905C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29C98CA20125FEE00905C75 /* Assets.xcassets */; };
 		C29C98CE20125FEE00905C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29C98CC20125FEE00905C75 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C254CF812012739F00F24CEE /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		C29C98C020125FEE00905C75 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29C98C320125FEE00905C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C29C98C520125FEE00905C75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C29C98C520125FEE00905C75 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		C29C98C820125FEE00905C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C29C98CA20125FEE00905C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C29C98CD20125FEE00905C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +37,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C254CF7F2012732400F24CEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C254CF802012732E00F24CEE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C29C98C520125FEE00905C75 /* CategoriesVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		C29C98B720125FEE00905C75 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +71,24 @@
 		C29C98C220125FEE00905C75 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				C254CF802012732E00F24CEE /* Controllers */,
+				C254CF7F2012732400F24CEE /* Models */,
+				C29C98D52012605B00905C75 /* Views */,
 				C29C98C320125FEE00905C75 /* AppDelegate.swift */,
-				C29C98C520125FEE00905C75 /* ViewController.swift */,
 				C29C98C720125FEE00905C75 /* Main.storyboard */,
 				C29C98CA20125FEE00905C75 /* Assets.xcassets */,
 				C29C98CC20125FEE00905C75 /* LaunchScreen.storyboard */,
 				C29C98CF20125FEE00905C75 /* Info.plist */,
 			);
 			path = "coder-swag";
+			sourceTree = "<group>";
+		};
+		C29C98D52012605B00905C75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C254CF812012739F00F24CEE /* CategoryCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C29C98C620125FEE00905C75 /* ViewController.swift in Sources */,
+				C29C98C620125FEE00905C75 /* CategoriesVC.swift in Sources */,
 				C29C98C420125FEE00905C75 /* AppDelegate.swift in Sources */,
+				C254CF822012739F00F24CEE /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
