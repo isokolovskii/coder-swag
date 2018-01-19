@@ -10,6 +10,9 @@
 		C254CF822012739F00F24CEE /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254CF812012739F00F24CEE /* CategoryCell.swift */; };
 		C254CF8420128BDA00F24CEE /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254CF8320128BDA00F24CEE /* Category.swift */; };
 		C254CF8720128ECC00F24CEE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254CF8620128ECC00F24CEE /* DataService.swift */; };
+		C254CF8D20129CD400F24CEE /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254CF8C20129CD400F24CEE /* ProductCell.swift */; };
+		C254CF8F20129D6B00F24CEE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254CF8E20129D6B00F24CEE /* Product.swift */; };
+		C254CF932012A2B600F24CEE /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254CF922012A2B600F24CEE /* ProductsVC.swift */; };
 		C29C98C420125FEE00905C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C98C320125FEE00905C75 /* AppDelegate.swift */; };
 		C29C98C620125FEE00905C75 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C98C520125FEE00905C75 /* CategoriesVC.swift */; };
 		C29C98C920125FEE00905C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29C98C720125FEE00905C75 /* Main.storyboard */; };
@@ -21,6 +24,9 @@
 		C254CF812012739F00F24CEE /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		C254CF8320128BDA00F24CEE /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		C254CF8620128ECC00F24CEE /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C254CF8C20129CD400F24CEE /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		C254CF8E20129D6B00F24CEE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C254CF922012A2B600F24CEE /* ProductsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		C29C98C020125FEE00905C75 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29C98C320125FEE00905C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C29C98C520125FEE00905C75 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -45,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				C254CF8320128BDA00F24CEE /* Category.swift */,
+				C254CF8E20129D6B00F24CEE /* Product.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -52,6 +59,7 @@
 		C254CF802012732E00F24CEE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C254CF922012A2B600F24CEE /* ProductsVC.swift */,
 				C29C98C520125FEE00905C75 /* CategoriesVC.swift */,
 			);
 			path = Controllers;
@@ -100,6 +108,7 @@
 		C29C98D52012605B00905C75 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C254CF8C20129CD400F24CEE /* ProductCell.swift */,
 				C254CF812012739F00F24CEE /* CategoryCell.swift */,
 			);
 			path = Views;
@@ -177,11 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C254CF932012A2B600F24CEE /* ProductsVC.swift in Sources */,
 				C29C98C620125FEE00905C75 /* CategoriesVC.swift in Sources */,
 				C29C98C420125FEE00905C75 /* AppDelegate.swift in Sources */,
 				C254CF822012739F00F24CEE /* CategoryCell.swift in Sources */,
+				C254CF8D20129CD400F24CEE /* ProductCell.swift in Sources */,
 				C254CF8420128BDA00F24CEE /* Category.swift in Sources */,
 				C254CF8720128ECC00F24CEE /* DataService.swift in Sources */,
+				C254CF8F20129D6B00F24CEE /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
